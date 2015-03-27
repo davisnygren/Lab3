@@ -9,6 +9,10 @@ public class PrimeGenerator {
 	public static List<Integer> generate(int i) {
 		ArrayList<Integer> primes = new ArrayList<Integer>();
 		
+		if(i>2) {
+			primes.add(3);
+			i--;
+		}
 		if(i == 2)
 			primes.add(2);
 		return primes;
