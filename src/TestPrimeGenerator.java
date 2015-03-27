@@ -29,7 +29,8 @@ public class TestPrimeGenerator {
 		return Arrays.asList(new Object[][] {
 				{1, list()},
 				{2, list(2)},
-				{3, list(3,2)}
+				{3, list(3,2)},
+				{4, list(3,2)}
 		});
 	}
 	
