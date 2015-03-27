@@ -11,7 +11,7 @@ public class PrimeGenerator {
 		
 		if(i>2) {
 			primes.add(3);
-			i--;
+			i = (i+1)/2;
 		}
 		if(i == 2)
 			primes.add(2);
