@@ -7,6 +7,7 @@ public class PrimeGenerator {
 	
 	
 	public static List<Integer> generate(int i) {
+		
 		return new ArrayList<Integer>();
 		
 	}
